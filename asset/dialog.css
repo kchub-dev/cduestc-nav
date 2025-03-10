@@ -1,0 +1,43 @@
+#dialog {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    inset: 0;
+}
+
+#dialog>.bgWrapper {
+    position: fixed;
+    z-index: -1;
+    backdrop-filter: blur(4px) brightness(.8);
+    transition: backdrop-filter .2s;
+    inset: 0;
+}
+
+#dialog>.bgWrapper:hover {
+    backdrop-filter: blur(1px) brightness(.9);
+}
+
+#dialog.hidden {
+    display: none;
+}
+
+#dialog>.card {
+    margin: 1rem;
+    width: 80vw;
+    max-width: 720px;
+    height: auto;
+    max-height: 100vh;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+#dialogContent>canvas,
+#dialogContent>img {
+    margin: 1rem auto;
+    border-radius: 1em;
+    background: #fff;
+    padding: 1em;
+    max-width: 80%;
+}
