@@ -5,15 +5,15 @@ let dialog = {
 }
 
 dialog.msgs = {
-    联系方式: { content: 'QQ: 2399052066 (同时支持QQ邮箱)' },
-    i西邮: { content: '和微信小程序版功能相同，支持签到但定位精度较低。', icon: 'fa-solid fa-location-dot fa-space', code: 'https://wzxy.xiyou.edu.cn/h5/mobile/basicinfo/index/login/index' },
+    联系方式: { content: 'QQ群: 1028963516 (留言任意管理员)' },
+    育才工程: { content: '自动跳转钉钉', icon: 'fa-solid fa-location-dot fa-space', code: 'https://wzxy.xiyou.edu.cn/h5/mobile/basicinfo/index/login/index' },
     第二课堂: { icon: 'fa-solid fa-book-bookmark fa-space', code: 'https://win.9xueqi.com/' },
     青年大学习: { content: '需要微信登录，所以得在微信内打开或者使用微信扫一扫。', icon: 'fa-solid fa-medal fa-space', code: 'https://h5.sxgqt.org.cn/#/statisticsNews' },
     逸夫楼地图: { content: '学长做的，但是要旋转屏幕方向才能使用。', code: 'https://8.u.h5mc.com/c/7oor/ygju/index.html' },
     西邮财务处: { icon: 'fa-solid fa-money-bills', content: '支付宝扫码，查询/领取来自西邮财务处的奖学金/退费。', code: 'http://wx.weiweixiao.net/index.php/Wap/ModFfgl/index/token/eoQ1mDMc7BGAAAAWPgst-A.html' },
-    缴费大厅: { icon: 'fa-solid fa-sack-dollar', content: '支付宝扫码，支持充值公寓电费，电表只能被一个用户绑定。<br>(<strong><a href="https://cwc.xupt.edu.cn/info/1013/1371.htm">公寓电费充值指南</a></strong>) ', code: 'https://wx.weiweixiao.net/index.php/Wap/Index/columns.html?token=eoQ1mDMc7BGAAAAWPgst-A&id=VGGmLrY67BGAAAAWPwAVGQ' },
+    缴费大厅: { icon: 'fa-solid fa-sack-dollar', content: '支付宝扫码，支持充值公寓电费，电表只能被一个用户绑定。<br>(<strong><a href="https://cwc.xupt.edu.cn/info/1013/1371.htm">公寓电费充值指南</a></strong>) ', code: 'http://wx.weiweixiao.net/index.php/Wap/Index/columns.html?token=FuMutmzL5xGAAAAWPwAVGQ&id=4kFwzj3H6xGAAAAWPwAVGQ' },
     取快递: { icon: 'iconfont icon-taobao', content: '淘宝扫码或直接访问', code: 'https://pages-fast.m.taobao.com/wow/z/uniapp/1011717/last-mile-fe/end-collect-platform/school' },
-    试卷打印: { icon: 'fa-solid fa-print', content: '微信小程序搜索“萌蚤云印”，选择打印店后点击下方“资料”，可以查看此店热门资源。<br>祝大家期末不挂科。' },
+    试卷云打印: { icon: 'fa-solid fa-print', content: '微信小程序搜索“萌蚤云印”，选择打印店后点击下方“资料”，可以查看此店热门资源。<br>祝大家期末不挂科。' },
     西柚oi: { icon: 'iconfont icon-xiaohongshu', content: '小红书APP扫码加入，二维码2025年3月9日前有效', code: 'http://xhslink.com/a/97HRNHK6mev5' },
 }
 
