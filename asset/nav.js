@@ -24,6 +24,7 @@ nav.list[0] = [{
     { text: "取快递", desc: "淘宝身份码", icon: "iconfont icon-taobao", js: "dialog.showMsg(this.textContent)" },
     { text: "支付宝校园派", desc: "日常优惠", icon: "iconfont icon-alipay", link: "https://api.cduestc.fun/?alischool" },
     { text: "试卷云打印", desc: "正阳二楼", icon: "fa-solid fa-print", js: "dialog.showMsg(this.textContent)" },
+    { text: "地图导航测试", desc: "高德跳转测试", icon:"iconfont icon-gaode", link:"https://api.cduestc.fun/map/?gaode=蜜雪冰城"}
   ]
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
@@ -85,7 +86,7 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
-    { text: "公众号编辑", desc: "镜像自doocs/md", icon: "fa-brands fa-markdown", link: "https://md.cooo.site/" },
+    { text: "公众号编辑", desc: "镜像自doocs/md", icon: "fa-brands fa-markdown", link: "https://md.cduestc.fun" },
     { text: "电脑入门", desc: "你缺失的那门计算机课", icon: "fa-solid fa-book-bookmark", link: "https://www.criwits.top/missing/" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
     { text: "芯片榜", desc: "极客湾SoCPK", link: "https://www.socpk.com/" },
