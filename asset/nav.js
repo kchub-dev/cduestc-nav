@@ -1,6 +1,6 @@
 let nav = {
-  name: "KC导航",
-  description: "",
+  name: "科成导航",
+  description: "电子科技大学成都学院官方支持的网站导航，提供官方信息、考试学习、交流社群、第三方工具网站等网站。",
   list: [],
   ele: document.querySelectorAll(".navlist"),
 }
@@ -38,12 +38,12 @@ nav.list[0] = [{
 }, {
   name: "交流社群", icon: "fa-solid fa-circle-nodes", item: [
 
-    { text: "实验室纳新", desc: "火热纳新 就等你来", icon:"iconfont icon-shiyanshi", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=BB08J2" },
-    { text: "各兴趣群", desc: "游戏娱乐 小众爱好", icon: "fa-solid fa-gamepad", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=ov58e9" },
+    { text: "实验室/兴趣小组", desc: "科成码农", icon:"iconfont icon-shiyanshi", link: "https://www.cduestc.fun/coder" },
+    { text: "各种兴趣群", desc: "游戏娱乐 小众爱好", icon: "fa-solid fa-gamepad", link: "https://www.cduestc.fun/coder" },
     { text: "百叶频道", desc: "QQ交流分享频道", icon: "iconfont icon-QQpindao",link:"https://pd.qq.com/s/aafg49sgq?businessType=9"},
     { text: "科成MC", desc: "Minecraft交流", icon: "iconfont icon-minecraft", link: "https://craft.cduestc.fun" },
-    { text: "飞跃手册（制作中）", desc: "毕业经验分享", link: "#" },
-    { text: "校园墙", icon: "fa-brands fa-weixin", link: "https://wiki.cooo.site/life/forum#校园墙" },
+    { text: "飞跃手册（制作中）", desc: "毕业考研经验分享", link: "#" },
+    { text: "校园墙", desc: "校园生活分享", icon: "fa-brands fa-weixin", link: "https://www.cduestc.fun/life/forum#校园墙" },
   ]
 },]
 
